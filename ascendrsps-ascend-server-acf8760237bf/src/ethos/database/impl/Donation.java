@@ -29,7 +29,7 @@ public class Donation extends Thread implements Runnable {
 	
 	public JsonArray getJsonData() {
         try {     
-        	URL url = new URL("https://ascend-ps.com//payment/verify/king+fox");
+        	URL url = new URL("http://outlawrsps.everythingrs.com/services/store");
 			HttpURLConnection request = (HttpURLConnection) url.openConnection();
 			request.connect();
 			
